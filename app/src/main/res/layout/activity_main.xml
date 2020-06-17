@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303644"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BtnKakkimda"
+        android:layout_width="0dp"
+        android:layout_height="49dip"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/butonyeni"
+        android:text="HAKKIMDA"
+        android:textColor="#CAD4EC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/BtnGogus"
+        android:layout_width="0dp"
+        android:layout_height="49dip"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/butonyeni"
+        android:gravity="center"
+        android:text="GÖĞÜS HAREKETLERİ"
+        android:textColor="#CAD4EC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnKarin" />
+
+    <Button
+        android:id="@+id/BtnBacak"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/butonyeni"
+        android:text="BACAK HAREKETLERİ"
+        android:textColor="#CAD4EC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnOs" />
+
+    <Button
+        android:id="@+id/BtnOs"
+        android:layout_width="0dp"
+        android:layout_height="49dip"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/butonyeni"
+        android:text="OMUZ VE SIRT HAREKETLERİ"
+        android:textColor="#CAD4EC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnKol" />
+
+    <Button
+        android:id="@+id/BtnKol"
+        android:layout_width="0dp"
+        android:layout_height="49dip"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/butonyeni"
+        android:gravity="center"
+        android:text="KOL HAREKETLERİ"
+        android:textColor="#CAD4EC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnGogus" />
+
+    <Button
+        android:id="@+id/BtnKarin"
+        android:layout_width="0dp"
+        android:layout_height="49dip"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/butonyeni"
+        android:gravity="center|center_horizontal"
+        android:text="KARIN HAREKETLERİ"
+        android:textColor="#CAD4EC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

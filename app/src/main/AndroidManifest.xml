@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eren.evdespor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Bacak1"
+            android:parentActivityName=".Bacak" />
+        <activity android:name=".Os4" />
+        <activity android:name=".Os3" />
+        <activity android:name=".Os2" />
+        <activity android:name=".Os1" />
+        <activity android:name=".OS" />
+        <activity android:name=".Kol3" />
+        <activity android:name=".Kol2" />
+        <activity android:name=".Kol1" />
+        <activity android:name=".Bacak3" />
+        <activity android:name=".Bacak2" />
+        <activity android:name=".Gogus3" />
+        <activity android:name=".Gogus2" />
+        <activity android:name=".Gogus1" />
+        <activity android:name=".Karin4" />
+        <activity android:name=".Karin3" />
+        <activity android:name=".Karin2" />
+        <activity android:name=".Karin1" />
+        <activity android:name=".Hakkimda" />
+        <activity android:name=".Bacak" />
+        <activity android:name=".Kol" />
+        <activity android:name=".Gogus" />
+        <activity android:name=".Karin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
